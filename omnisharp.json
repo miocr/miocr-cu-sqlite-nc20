@@ -1,0 +1,5 @@
+{
+    "IgnoredCodeIssues": [
+        "^Unnecessary using directive.$"
+    ]
+}

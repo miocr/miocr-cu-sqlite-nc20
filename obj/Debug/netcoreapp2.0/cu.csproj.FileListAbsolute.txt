@@ -1,0 +1,11 @@
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\bin\Debug\netcoreapp2.0\cu-final.deps.json
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\bin\Debug\netcoreapp2.0\cu-final.runtimeconfig.json
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\bin\Debug\netcoreapp2.0\cu-final.runtimeconfig.dev.json
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\bin\Debug\netcoreapp2.0\cu-final.dll
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\bin\Debug\netcoreapp2.0\cu-final.pdb
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\cu.csproj.CoreCompileInputs.cache
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\cu.AssemblyInfoInputs.cache
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\cu.AssemblyInfo.cs
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\cu-final.dll
+C:\Users\Mihula\Documents\Visual Studio 2017\Projects\cu-sqlite2\obj\Debug\netcoreapp2.0\cu-final.pdb
