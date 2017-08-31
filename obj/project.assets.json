@@ -13131,11 +13131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\cu.csproj",
+      "projectUniqueName": "c:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\cu.csproj",
       "projectName": "cu-final",
-      "projectPath": "C:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\cu.csproj",
+      "projectPath": "c:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\cu.csproj",
       "packagesPath": "C:\\Users\\Mihula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\obj\\",
+      "outputPath": "c:\\Users\\Mihula\\Documents\\Visual Studio 2017\\Projects\\cu-sqlite2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
