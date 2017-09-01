@@ -5,21 +5,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 namespace ContosoUniversity.Data
 {
 
-    // public class SchoolContextFactory : IDbContextFactory<SchoolContext>
-    // {
-    //     public SchoolContext Create(DbContextFactoryOptions options)
-    //     {
-    //         var optionsBuilder = new DbContextOptionsBuilder<SchoolContext>();
-    //         //optionsBuilder.UseSqlite("Filename=./cu.db");
-    //         //optionsBuilder.UseSqlite(SchoolContext.SchoolContextDbFileName);
-
-    //         return new SchoolContext(optionsBuilder.Options);
-    //     }
-    // }
-
     public class SchoolContext : DbContext
     {
-        public static string SchoolContextDbFileName = "./appdata.db";
         public DbSet<Course> Courses { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Student> Students { get; set; }
@@ -52,8 +39,6 @@ namespace ContosoUniversity.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // ef-cli ziska ConnectionString z services, kde je DbContext pridany pres AddDbCobtext
-            //optionsBuilder.UseSqlite("Filename=./cu.db");
         }
 
     }

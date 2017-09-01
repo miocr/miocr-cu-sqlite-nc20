@@ -25,11 +25,7 @@ namespace ContosoUniversity
 
 #region Net.Core 2
       BuildWebHost(args).Run();
-      //note
-      //note
-      int i = 0;
 #endregion
-
     }
 
     public static IWebHost BuildWebHost(string[] args) =>

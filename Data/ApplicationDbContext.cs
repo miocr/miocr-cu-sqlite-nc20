@@ -9,17 +9,6 @@ using ContosoUniversity.Models;
 
 namespace ContosoUniversity.Data
 {
- 
-//   public class ApplicationDbContextFactory : IDbContextFactory<ApplicationDbContext>
-//     {
-//         public ApplicationDbContext Create(DbContextFactoryOptions options)
-//         {
-//             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-//             optionsBuilder.UseSqlite("Filename=./appdata.db");
-
-//             return new ApplicationDbContext(optionsBuilder.Options);
-//         }
-//     }
 
    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -38,7 +27,6 @@ namespace ContosoUniversity.Data
 
          protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlite("Filename=./appdata.db");
         }
 
     }

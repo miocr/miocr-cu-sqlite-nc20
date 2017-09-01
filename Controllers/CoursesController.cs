@@ -82,6 +82,7 @@ namespace ContosoUniversity.Controllers
             if (course == null)
             {
                 return NotFound();
+                //return View("~/Views/Shared/Error.cshtml"); 
             }
             PopulateDepartmentsDropDownList(course.DepartmentID);
             return View(course);

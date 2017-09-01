@@ -14,8 +14,7 @@ ms.prod: aspnet-core
 
 # Contoso University sample app (SQLite version)
 
-Contoso University demonstrates how to use Entity Framework Core 1.0 in an
-ASP.NET Core MVC 1.0 web application.
+Contoso University demonstrates how to use Entity Framework Core 2.0 in an ASP.NET Core MVC web application.
 
 This project version uses SQLite DB provider.
 Project is multiplatform (Windows, OSX...)

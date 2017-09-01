@@ -43,20 +43,18 @@ namespace ContosoUniversity
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-
             services.AddIdentity<ApplicationUser, IdentityRole>()
                  .AddEntityFrameworkStores<ApplicationDbContext>()
                  .AddDefaultTokenProviders();
 
+#region DbContext
             services.AddDbContext<SchoolContext>(options =>
                  options.UseSqlite(Configuration.GetConnectionString("SchoolDbConnection")));
-            //services.AddDbContext<SchoolContext>();
-            //services.AddDbContext<ApplicationDbContext>();
             services.AddDbContext<ApplicationDbContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("ApplicationDbConnection")));
+#endregion
 
             services.AddMvc();
-            
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -73,12 +71,16 @@ namespace ContosoUniversity
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
-                //app.UseBrowserLink();
+                app.UseBrowserLink();
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+    
+            //app.UseStatusCodePages();
+            app.UseStatusCodePagesWithReExecute("/Home/Errors/{0}");
+            //app.UseStatusCodePagesWithRedirects("/Home/Errors/{0}");
 
             app.UseStaticFiles();
 
@@ -86,6 +88,8 @@ namespace ContosoUniversity
             app.UseAuthentication();
             
             // Add external authentication middleware below. To configure them please see http://go.microsoft.com/fwlink/?LinkID=532715
+
+        
 
             app.UseMvc(routes =>
             {
