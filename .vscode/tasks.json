@@ -7,7 +7,7 @@
             "label": "build",
             "command": "chcp.com 852 && dotnet build",
             "type": "shell",
-            "presentation": {
+            "presentation": { 
                 "reveal": "always" //always never silent 
             },
             "group": {
