@@ -38,13 +38,13 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
 
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.0.0" />
-    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <!-- <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" /> -->
   </ItemGroup>
   
   <!-- Command line tools -->
    <ItemGroup>
     <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.4.337" />
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <!-- <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" /> -->
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
